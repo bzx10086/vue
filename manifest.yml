@@ -1,7 +1,7 @@
  applications:
  - name: vue-tutorial
      path: ./dist
-     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+     buildpack: sdk-for-nodejs
      random-route: true
      memory: 128M    
      env:
