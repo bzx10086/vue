@@ -1,5 +1,4 @@
- applications:
- - name: vue-tutorial
-     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-     random-route: true
-     memory: 256M
+applications:
+- name: node-hello-world
+  memory: 128M
+  buildpack: sdk-for-nodejs
